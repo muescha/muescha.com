@@ -130,6 +130,8 @@ lpt3 = PRIVATE SEL: "Windows_PCL_printer" RAW
 While RAW printing in the console doesn't require additional installations, users need to assign the LPT with net use, and errors might occur during printing.
 
 
+![Printing](2024-03-16-dos-on-windows--net-use.jpeg)
+
 **Commands:**
 ```shell
 print /D:"My Brother printer" #LPT1.asc 
@@ -247,6 +249,9 @@ Color End: 27,80,16|27,40,115,112,49,50,104,52,49,48,50,84
 *Note: Escape sequences can be located by right-clicking on the printfil icon in the menu bar, then selecting "Help -> Dump: Redo Last Print" ([Find Printfil Tray Icon](https://www.printfil.com/tray-icon.htm)). This action produces an [example PDF](https://www.printfil.com/download/testpf3.pdf).*
 - Wait time: `0.1` (restart needed)
 
+![Escape Sequences](2024-03-16-dos-on-windows--escape-sequences.jpeg)
+![Setup](2024-03-16-dos-on-windows--setup.jpeg)
+
 **Pros:**
 - Improved font visibility.
 - No GUI during printing.
@@ -352,3 +357,19 @@ vDosMac stands out for its remarkable typing performance, catering to users seek
 
 **Links:**
 - https://mendelson.org/vdosmac.html
+
+
+
+# Print tests
+
+1. Original printout:
+![Original printout](2024-03-16-dos-on-windows--print-original.jpeg)
+2. vDOS printout:
+![vDOS printout](2024-03-16-dos-on-windows--print-vdos.jpeg)
+3. Wordpad printout:
+![Wordpad printout](2024-03-16-dos-on-windows--print-wordpad.jpeg)
+4. PDF printout:
+![PDF printout](2024-03-16-dos-on-windows--print-pdf.jpeg)
+5. Printfil printout:
+![Printfil printout](2024-03-16-dos-on-windows--print-printfil.jpeg)
+
